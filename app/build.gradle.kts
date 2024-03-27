@@ -33,6 +33,13 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    //linhas 40 e 41 tiveram que ser adicionadas para o funcionamento
+    //a linha 40 teve que ser adicionada devido a updates nas bibliotecas
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
 }
 
 dependencies {
