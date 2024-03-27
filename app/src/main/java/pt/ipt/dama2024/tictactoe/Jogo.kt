@@ -1,17 +1,14 @@
 package pt.ipt.dama2024.tictactoe
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import pt.ipt.dama2024.tictactoe.databinding.ActivityMainBinding
 import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 
 
-class MainActivity : AppCompatActivity() {
+class Jogo : AppCompatActivity() {
 
     enum class Turn
     {
